@@ -19,7 +19,7 @@ while True:
       print(f'Result: {num1 ** num2}')
     elif op == '//':
       print(f'Result: {num1 // num2}')
-    elif op == 'exit' or num1 == 'exit' or num2 == 'exit:
+    elif op == 'exit' or num1 == 'exit' or num2 == 'exit':
       break
     else:
       raise ValueError('invalid operator')
