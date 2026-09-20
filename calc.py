@@ -22,6 +22,6 @@ while True:
       print(f'Result: {num1 // num2}')
     else:
       raise ValueError('invalid operator')
-    print('\\033[2m~\\033[0m')
+    print('\033[2m~\033[0m')
   except Exception as e:
     print(f'[ERROR]: {e}')
