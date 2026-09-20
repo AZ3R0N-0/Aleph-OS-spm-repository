@@ -23,3 +23,5 @@ while True:
     print('\\033[2m~\\033[0m')
   except KeyboardInterrupt:
     break
+  except Exception as e:
+    print(f'[ERROR]: {e}')
