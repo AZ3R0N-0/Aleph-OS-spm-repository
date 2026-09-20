@@ -5,7 +5,7 @@ while True:
   try:
     num1 = float(input('First number: '))
     op = input('Operation (+ - * / ** //): ')
-    if op == 'exit'
+    if op == 'exit':
       break
     num2 = float(input('Second number: '))
     if op == '+':
