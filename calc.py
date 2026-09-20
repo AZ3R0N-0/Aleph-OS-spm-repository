@@ -1,5 +1,6 @@
 
 print('--- Calculator ---')
+print("type 'exit' to exit calculator")
 print()
 while True:
   try:
@@ -18,10 +19,10 @@ while True:
       print(f'Result: {num1 ** num2}')
     elif op == '//':
       print(f'Result: {num1 // num2}')
+    elif op == 'exit' or num1 == 'exit' or num2 == 'exit:
+      break
     else:
       raise ValueError('invalid operator')
     print('\\033[2m~\\033[0m')
-  except KeyboardInterrupt:
-    break
   except Exception as e:
     print(f'[ERROR]: {e}')
